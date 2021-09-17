@@ -1,0 +1,470 @@
+Clase #1
+
+Esto es un objeto
+CatedraticosUSPG Curso1 = CatedraticosUSPG()
+Curso1.AsignarCaracteristicasDeCatedraticos(fisica, Matutino, Alvaro Sanchez)
+Curso1.CaracteristicasDeCadaCatedratico()
+
+Esto es un objeto
+CatedraticosUSPG Curso2 = CatedraticosUSPG()
+Curso2.AsignarCaracteristicasDeCatedraticos(comunicacion Oral, Matutino, Marta Morales)
+Curso2.ImprimirCaracteristicasDeCadaCurso()
+
+Esto es una clase
+Clase CatedraticosUSPG()
+
+Declaracion de Atributos 
+    NombreDelCurso=""
+    Horario=0
+    CatedraticoQueImparte=""
+
+definición de métodos
+    Metodo AsignarCaracteristicasDeCatedraticos(CualquierCurso, Matutino/Nocturno, ualquierNombre)
+        NombreDelCurso=CualquierCurso
+        Horario= Matutino/Nocturno
+        CatedraticoQueImparte=CualquierNombre
+
+    Metodo ImprimirCaracteristicasDeCadaCurso
+        imprimir NombreDelCurso
+        Imprimir Horario
+        Imprimir CatedraticoQueImparte
+
+
+Clase 2 
+
+Esto es un objeto
+FacultadesUSPG Facultad1 = new FacultadesUSPG ()
+Facultad1.CaracteristicasDeCadaFacultad(Ingenieria, USPG, Ingenieria Civil)
+Facultad1.NombredeCadaFacultad
+
+Esto es un objeto
+FacultadesUSPG Facultad2 = new FacultadesUSPG ()
+Facultad2.CaracteristicasDeCadaFacultad(Derecho y Leyes, USPG, Leyes)
+Facultad2.NombredeCadaFacultad
+
+
+Esto es una clase
+Clase FacultadesUSPG
+
+Declaracion de Atributos 
+    NombreDeLaFacultad=""
+    Universidadalaquepertenece=""
+    CarreraPrincipal=""
+
+definición de métodos
+    metodo AsignarCaracteristicasDeCadaFacultad(CualquierNombreF, Universidadalaquepertenece, CarreraPrincipar)
+       NombreDeLaFacultad=CualquierNombreF
+       Universidadalaquepertenece=NombreDeLaU
+       CarreraPrincipar=CarreraPrimordial
+
+    metodo ImprimirNombredeCadaFacultad
+        imprimir NombreDeLaFacultad
+        imprimir Universidadalaquepertenece
+        imprimir CarreraPrincipar
+
+
+Clase 3 
+
+Esto es un objeto
+CatedraticosUSPG Catedratico1 = new CatedraticosUSPG()
+Catedratico1.ImpartirCursos(Crystal Muñoz, 6, 35)
+Catedratico1.ImprimirCaracteristicasDelCatedratico()
+
+Esto es un objeto
+CursosUSPG Matematicas = new CursosUSPG()
+Matematicas.ImpartirCursos(Alvaro Sanchez, 4, 50)
+Matematicas.ImprimirCaracteristicasDelCatedratico()
+
+Esto es una clase
+CatedraticosUSPG
+Declaracion de Atributos 
+    NombreDelCatedratico=""
+    CursosQueImparte=0
+    Edad=""
+
+definición de métodos
+    metodo ImpartirCursos(CualquierNombre, CualquierValor, CualquierEdad)
+        NombreDelCatedratico=CualquierNombre
+        CursosQueImparte=CualquierValor
+        Edad=CualquierEdad
+
+    metodo ImprimirCaracteristicasDelCatedratico
+        imprimir NombreDelCatedratico
+        imprimir CursosQueImparte
+        Imprimir Edad
+
+
+Clase 4 
+
+Esto es un objeto
+AlumnosUSPG Alumno1 = new AlumnosUSPG()
+Alumno1.AlumnosYLaFacultad(Yellsmi, Ingenieria, 21)
+Alumno1.CaracteristicasAlumnos()
+
+Esto es un objeto
+AlumnosUSPG Alumno2 = new AlumnosUSPG()
+Alumno2.AlumnosYLaFacultad(Eduardo, Ingenieria, 24)
+Alumno2.CaracteristicasAlumnos()
+
+Esto es una clase
+Clase AlumnosUSPG
+Declaracion de Atributos 
+    Nombre=""
+    FaculdadALaQuePertenece=""
+    Años=0
+
+definición de métodos
+    metodo AlumnosYLaFacultad(CualquierNombre, CulquierFacultad, AñosDeEdad)
+        Nombre=CualquierNombre
+        FaculdadALaQuePertenece=CulquierFacultad
+        Años=AñosDeEdad
+
+    metodo CaracteristicasAlumnos
+        imprimr Nombre
+        imprimr FaculdadALaQuePertenece
+        imprimr Años
+
+
+Clase 5
+
+Esto es un objeto
+PersonalAdministrativo Persona1 = new PersonalAdministrativo()
+Persona1.PersonalAdministrativo(Juana Vasquez, 23, Contaduria)
+Persona1.PersonasAdministrativas()
+
+Esto es un objeto
+PersonalAdministrativo Persona2 = new PersonalAdministrativo()
+Persona2.PersonalAdministrativo(Jessica Perez, 22, Reclutamiento)
+Persona2.PersonasAdministrativas()
+
+Esto es una clase
+Clase PersonalAdministrativo
+Declaracion de Atributos 
+    Nombre:""
+    Edad=0
+    AreLaboral=""
+
+definición de métodos
+    metodo PersonasAdministrativas(CualquierNombre, CualquierEdad, AreaLaboral)
+        Nombre = CualquierNombre
+        Edad = CualquierEdad
+        AreLaboral=AreaLaboral
+
+    metodo CaracteristicasPersonal
+        imprimir Nombre
+        imprimir Edad
+        imprimir AreLaboral
+
+
+Clase 6 
+
+Esto es un objeto
+CampusUSPG Campus1 = new CampusUSPG()
+Campus1.ElementosDeLaCede(Campus Central, Guatemala Guatemala, Cede Central)
+Campus1.CaracteristicasCampus()
+
+Esto es un objeto
+CampusUSPG Campus2 = new CampusUSPG()
+Campus2.AsignarElementosDeLaCede(Campus Escuintla, Guatemala Escuintla, Cede Escuintla)
+Campus2.ImprimirCaracteristicasCampus()
+
+Esto es una clase
+Clase CampusUSPG
+Declaracion de Atributos 
+    Nombre=""
+    Locacion=""
+    Cede=""
+
+definición de métodos
+    metodo AsignarElementosDeLaCede(Nombre, Locacion, Cede)
+        Nombre=CualquierNombre
+        Locacion=LocacionEstablecida
+        Cede=Central o Escuintla 
+
+    Metodo ImprimirCaracteristicasCampus
+        imprimir Nombre
+        imprimir Locacion
+        imprimir Cede
+
+
+Clase 7
+
+Esto es un objeto
+PersonalDeLimpieza PersonaLimpieza1 = new PersonalDeLimpieza()
+PersonaLimpieza1.AsignarCaracteristicasDelTrabajador(Rodrigo Sanchez, 44, Limpiar Aulas)
+PersonaLimpieza1.ImprimirCaracteristicasDeTrabajadores()
+
+Esto es un objeto
+PersonalDeLimpieza PersonaLimpieza2 = new PersonalDeLimpieza()
+PersonaLimpieza2.AsignarCaracteristicasDelTrabajador(Laura Hernandez, 55, Organizar Oficinas)
+PersonaLimpieza2.ImprimirCaracteristicasDeTrabajadores()
+
+Esto es una clase
+Clase PersonalDeLimpieza 
+Declaracion de Atributos 
+    Nombre:""
+    Edad=0
+    TrabajoDesempeñado=""
+
+definición de métodos
+    metodo AsignarCaracteristicasDelTrabajador(CualquierNombre, CualquierEdad, CualquierTrabajo)
+        Nombre=CualquierNombre
+        Edad=CualquierEdad
+        TrabajoDesempeñado=CualquierTrabajo
+
+    metodo ImprimirCaracteristicasDeTrabajadores()
+        imprimir Nombre
+        imprimir Edad
+        imprimir TrabajoDesempeñado
+
+
+Clase 8
+
+Esto es un objeto
+Pizarras Pizzarra1 = new Pizarras
+Pizzarra1.metodo AsignarCaracteristicasDePizarrasEnAulas(2m, A5, Buena)
+Pizzarra1.ImprimirCaracteristicasPizarras()
+
+Esto es un objeto
+Pizarras Pizarra2 = new Pizarras
+Pizarra2.metodo AsignarCaracteristicasDePizarrasEnAulas(3m, B6, Mala)
+Pizarra2.ImprimirCaracteristicasPizarras()
+
+Esto es una clase
+Clase Pizarras
+Declaracion de Atributos 
+    Tamaño=""
+    AulaEnLaQueSeEncuentra=""
+    Estado=""
+
+definición de métodos
+    metodo AsignarCaracteristicasDePizarrasEnAulas=(CualquierTamaño, CualquierAula, BuenoOmalo)
+        Tamaño=CualquierTamaño
+        AulaEnLaQueSeEncuentra=CualquierAula
+        Estado=BuenoOmalo 
+
+    metodo ImprimirCaracteristicasPizarras()
+        Imprimir Tamaño
+        Imprimir AulaEnLaQueSeEncuentra
+        Imprimir Estado
+
+Clase 9
+
+Esto es un objeto
+Escritorios PrimerAula = new Escritorios
+PrimerAula.AsignarEscritoriosEnAulas(22, Fisica, B11)
+PrimerAula.ImprimirNumeroEscritoriosAulas()
+
+Esto es un objeto
+Escritorios SegundaAula = new Escritorios
+SegundaAula.AsignarEscritoriosEnAulas(45, Historia del Arte, C1)
+SegundaAula.ImprimirNumeroEscritoriosAulas()
+
+Esto es una clase
+Clase Escritorios
+Declaracion de Atributos 
+    NumeroDeEscritorios=0
+    Curso=""
+    Aula=""
+
+definición de métodos
+    metodo AsignarEscritoriosEnAulas(CualquierNumero, NombredeLaFacultad, NombreDelCurso)
+        NumeroDeEscritorios=CualquierNumero
+        Curso=NombreDelCurso
+        Aula=AulaEnLaQueSeEncuentra
+    
+    metodo ImprimirNumeroEscritoriosAulas()
+        Imprimir NumeroDeEscritorios
+        Imprimir Curso
+        Imprimir Aula
+
+Clase 10 
+
+Esto es un objeto
+Proyectores Proyector1 = new Proyectores
+Proyector1.AsignarProyectoresEnAulas(1, Canon, WX6000)
+Proyector1.ImprimirCantidadProyectores()
+
+Esto es un objeto
+Proyectores Proyector2 = new Proyectores
+Proyector2.AsignarProyectoresEnAulas(1, Dell, 725-BBCV)
+Proyector2.ImprimirCantidadProyectores()
+
+Esto es una clase
+Clase Proyectores 
+Declaracion de Atributos 
+    NumeroDeProyectores=0
+    Marca=""
+    Modelo=""
+
+definición de métodos
+    metodo AsignarProyectoresEnAulas(CualquierNumero, NombreDeLaMarca, ModeloDeLosProyectores)
+        NumeroDeProyectores=CualquierNumero
+        Marca=NombreDeLaMarca
+        Modelo=ModeloDeLosProyectores
+
+    metodo ImprimirCantidadProyectores()
+        Imprimir NumeroDeProyectores
+        Imprimir Marca
+        Imprimir Modelo
+
+Clase 11
+
+Esto es un objeto
+Laboratorio Laboratorio1 = new Laboratorio
+Laboratorio1.AsignarMaquinasEnAulas(A4, Ingenieria, 56)
+Laboratorio1.imprimirPCdelLaboratorio()
+
+Esto es un objeto
+Laboratorio Laboratorio2 = new Laboratorio
+Laboratorio2.AsignarMaquinasEnAulas(C21, Ciencias Empresariales, 30)
+Laboratorio2.imprimirPCdelLaboratorio()
+
+Esto es una clase
+Clase Laboratorio 
+Declaracion de Atributos 
+    Aula=""
+    Facultad=""
+    CantidadDeComputadoras=0
+
+definición de métodos
+    metodo AsignarMaquinasEnAulas(NombreDelAula, NombredeLaFacultad, NumeroDeComputadoras)
+        Aula=NombreDelAula
+        Facultad=NombredeLaFacultad
+        CantidadDeComputadoras=NumeroDeComputadoras
+
+    metodo imprimirPCdelLaboratorio()
+        Imprimir Aula
+        Imprimir Facultad
+        Imprimir CantidadDeComputadoras
+
+Clase 12 
+
+Esto es un objeto
+PersonalDeMantenimiento Trabajador1 = new PersonalDeMantenimiento
+Trabajador1.asignarPersonasEncargadasedeMantener(Miguel Hernandez, 40, Area Sur)
+Trabajador1.ImprimriCaracteristicasDeTrabajadoresE()
+
+Esto es un objeto
+PersonalDeMantenimiento Trabajador2 = new PersonalDeMantenimiento
+Trabajador2.PersonasEncargadasedeMantener(Angel Saenz, 55, Area Norte)
+Trabajador2.ImprimriCaracteristicasDeTrabajadoresE()
+
+Esto es una clase
+Clase PersonalDeMantenimiento
+Declaracion de Atributos 
+    Nombre=""
+    Edad=0
+    EncargadoDe=""
+
+definición de métodos
+    metodo asignarPersonasEncargadasedeMantener(CualquierNombre, CualquierNumero, DepartamentoEncargado)
+        Nombre=CualquierNombre
+        Edad=CualquierNumero
+        EncargadoDe=DepartamentoEncargado 
+
+    metodo ImprimriCaracteristicasDeTrabajadoresE
+        imprimir Nombre
+        imprimir Edad
+        imprimir EncargadoDe
+
+
+Clase 13 
+
+Esto es un objeto
+Cafeterias Cafateria1 = new Cafeterias
+Cafateria1.CafeteriasLaborandoEnCedes(El milagro, este, Campus Central)
+Cafeteria1.ImprimirCaracteristicasDeCafeterias()
+
+Esto es un objeto
+Cafeterias Cafateria2 = new Cafeterias
+Cafateria2.CafeteriasLaborandoEnCedes(La vida, sur, Campus Escuintla)
+Cafateria2.ImprimirCaracteristicasDeCafeterias()
+
+Esto es una clase
+Clase Cafeterias 
+Declaracion de Atributos 
+    Nombre=""
+    Area=""
+    Cede=""
+
+definición de métodos
+    metodo CafeteriasLaborandoEnCedes(CualquierNombre, CualquierArea, CampusCentraloEscuintla)
+        Nombre=CualquierNombre
+        Area=CualquierArea
+        Cede=CampusCentraloEscuintla 
+
+    metodo ImprimirCaracteristicasDeCafeterias()
+        Imprimir Nombre
+        Imprimir Area
+        Imprimir Cede
+
+Clase 14 
+
+Esto es un objeto
+Parqueo Parqueo1 = new Parqueo
+Parqueo1.AlojarCarros=(Sur, 140, Central)
+Parqueo1.ImprimirCaracteristicasParqueo()
+
+Esto es un objeto
+Parqueo Parqueo2 = new Parqueo
+Parqueo2.AlojarCarros=(Este, 201, Escuintla)
+Parqueo2.ImprimirCaracteristicasParqueo()
+
+Esto es una clase
+Clase Parqueo 
+Declaracion de Atributos 
+    Area=""
+    Capacidad=""
+    Campus=""
+
+definición de métodos
+    metodo AlojarCarros(CualquierArea, CualquierValor, CampusCentraloEscuintla)
+        Area=CualquierArea
+        Camapcidad=CualquierValor
+        Campus=CampusCentraloEscuintla
+
+    metodo ImprimirCaracteristicasParqueo()
+        Imprimir Area
+        Imprimir Camapcidad
+        Imprimir Campus
+
+Clase 15 
+
+Esto es un objeto
+Universidad Universidad1 = new Universidad
+Universidad1.UniversidadesDondeProveenConocimientoSinReservas=(USPG, 56784324, zona 14 Guatemala)
+Universidad1.ImprimirCaracteristicasDeUniversidad()
+
+Esto es un objeto
+Universidad Universidad2 = new Universidad
+Universidad2.UniversidadesDondeProveenConocimientoSinReservas=(Galileo, 73562890, zona 10 Guatemala)
+Universidad2.ImprimirCaracteristicasDeUniversidad()
+
+Esto es una clase
+Clase Universidad 
+Declaracion de Atributos 
+    Nombre=""
+    Telefono=0
+    Ubicacion=""
+
+definición de métodos
+    metodo UniversidadesDondeProveenConocimientoSinReservas(Nombre, Telefono, Ubicacion)
+        Nombre=CualquierNombre
+        Telefono=NumeroDeTelefono
+        Ubicacion=Direccion 
+
+    metodo ImprimirCaracteristicasDeUniversidad()
+        Imprimir Nombre
+        Imprimir Telefono
+        Imprimir Ubicacion
+
+
+
+
+
+
+
+
+
+

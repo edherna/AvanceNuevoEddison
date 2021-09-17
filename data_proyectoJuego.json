@@ -1,0 +1,10 @@
+{
+    "jugadores": [
+        {
+            "nombre": "Eddison",
+            "apellido": "Hernandez",
+            "usuario": "edherna",
+            "contrase\u00f1a": 1234
+        }
+    ]
+}
